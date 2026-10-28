@@ -1,157 +1,162 @@
-# 🌫️ LUMORA — Find Your Way Through the Quiet Fog
+# 🌫️ LUMORA
+### *Find Your Way Through the Quiet Fog*
 
 <p align="center">
-  <strong>A narrative-driven puzzle adventure about self-discovery, emotional awareness, and new perspectives.</strong>
+  <strong>A Narrative-Driven Puzzle Adventure</strong>
+  <br/>
+  Explore the unknown. Solve gentle puzzles. Discover new perspectives with Lumi by your side.
 </p>
 
 <p align="center">
-  Explore the unknown. Solve gentle puzzles. Discover a different way forward—with Lumi by your side.
+  <img src="https://img.shields.io/badge/Engine-Godot-478CBF?logo=godot-engine&logoColor=white" alt="Godot Engine"/>
+  <img src="https://img.shields.io/badge/Language-GDScript-355570" alt="GDScript"/>
+  <img src="https://img.shields.io/badge/Genre-Narrative%20Puzzle-8A6FB5" alt="Narrative Puzzle Adventure"/>
+  <img src="https://img.shields.io/badge/AI-Companion%20Concept-3B8C79" alt="AI Companion Concept"/>
 </p>
 
 ---
 
 ## 🌌 About LUMORA
 
-LUMORA is a story-driven puzzle adventure that takes players into a mysterious, fog-covered world known as **the Quiet Fog**. Guided by a friendly companion named **Lumi**, players explore their surroundings, solve environmental puzzles, make meaningful choices, and gradually uncover new paths through the world.
+LUMORA is a narrative-driven puzzle adventure set in a mysterious, fog-covered world known as **the Quiet Fog**.
 
-At its heart, LUMORA combines immersive exploration with thoughtful gameplay designed around three core ideas:
+Accompanied by a friendly companion named **Lumi**, players explore unfamiliar environments, discover hidden clues, solve gentle puzzles, and make choices that influence their journey.
 
-- **Grounding:** Learning to notice the present environment and its details.
-- **Thoughts vs. Facts:** Exploring the difference between what a character believes and what the available evidence shows.
-- **Balanced Thinking:** Considering alternative explanations and approaching situations from different perspectives.
+The game is designed around three core themes:
 
-Rather than presenting these ideas through lessons alone, LUMORA aims to express them through player actions, environmental storytelling, interactive puzzles, and the consequences of choices.
+- **Grounding:** Noticing details in the present environment.
+- **Thoughts vs. Facts:** Exploring the difference between assumptions and observable evidence.
+- **Balanced Thinking:** Considering alternative explanations and different perspectives.
 
-## ✨ The World of LUMORA
+Rather than teaching these ideas through text alone, LUMORA aims to express them through exploration, environmental puzzles, character interactions, and visible consequences.
 
-<!-- Add your world concept art here -->
+## 🌲 Explore the Quiet Fog
+
 <p align="center">
-  <img src="assets/images/quiet-fog.png" alt="The Quiet Fog — LUMORA's mysterious world" width="90%">
+  <img src="https://images.unsplash.com/photo-1708806016883-d9b03a689eba?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=80&w=1200" alt="Misty forest representing the Quiet Fog" width="95%"/>
 </p>
 
-### The Quiet Fog
+The Quiet Fog is a mysterious environment filled with mist-covered paths, hidden details, and places waiting to be discovered.
 
-The Quiet Fog is the mysterious environment in which the player's journey unfolds. Mist-covered paths, hidden clues, atmospheric lighting, and environmental changes create a world that encourages curiosity and exploration.
+Players explore the surroundings to find clues, interact with objects, and uncover new routes. As puzzles are completed, the environment can respond through changes in lighting, fog, and accessible paths.
 
-As players interact with the environment and complete puzzles, the world responds to their actions. A light may appear, a path may become visible, or an area may gradually reveal more of its surroundings.
+Exploration is designed to create curiosity and a sense of discovery while keeping the experience approachable.
 
-### Meet Lumi
+## ✨ Meet Lumi
 
-<!-- Add Lumi's character art here -->
 <p align="center">
-  <img src="assets/images/lumi.png" alt="Lumi — the player's companion" width="45%">
+  <img src="https://images.unsplash.com/photo-1771749607076-b6c940404f73?auto=format&fit=crop&fm=jpg&ixlib=rb-4.1.0&q=80&w=900" alt="Atmospheric forest inspiration for Lumi's world" width="70%"/>
 </p>
 
-Lumi is the player's companion throughout the journey. Lumi offers guidance, responds to discoveries, provides optional hints, and helps players consider different possibilities.
+**Lumi is the player's companion throughout the journey.**
 
-Lumi is designed to support the player's journey without taking control of it. Players remain responsible for exploring, solving puzzles, and deciding how to move forward.
+Lumi offers guidance, responds to discoveries, provides optional hints, and helps the player explore different possibilities.
 
-As the game evolves, an AI-powered companion may enable more contextual conversations and personalized interactions.
+Lumi is not meant to solve every puzzle automatically. Instead, the companion encourages exploration while allowing players to make their own decisions.
+
+The long-term vision includes exploring AI-powered dialogue that can respond to the player's current situation and relevant in-game history.
+
+*The image above is environmental inspiration, not Lumi's finalized character design.*
 
 ## 🎮 Core Gameplay
 
-LUMORA connects exploration, puzzles, dialogue, and environmental feedback into a continuous gameplay experience.
+### 1. Exploration
 
-### 1. Explore the Environment
+Move through the Quiet Fog, discover points of interest, and uncover clues hidden in the environment.
 
-Move through the Quiet Fog, discover points of interest, and uncover clues hidden within the surroundings.
+### 2. Interaction
 
-### 2. Interact with the World
+Approach characters and objects to trigger interactions, inspect clues, and discover new information.
 
-Approach objects, investigate environmental details, and interact with Lumi and other elements of the story.
+### 3. Gentle Puzzles
 
-### 3. Solve Gentle Puzzles
+Solve small challenges using observation, reasoning, and environmental clues.
 
-Complete small, accessible challenges that encourage observation, reasoning, and consideration of different perspectives.
+### 4. Meaningful Choices
 
-### 4. Make Choices
+Choose how to respond to fictional situations and explore different possible outcomes.
 
-Choose how to respond to characters and situations. Choices can influence dialogue, reveal different details, and affect how the player experiences the story.
+### 5. Environmental Storytelling
 
-### 5. Experience Environmental Changes
+Discover the world's story through lighting, objects, sound, atmosphere, and changes in the surroundings.
 
-Puzzle completion and player actions can trigger visible changes in the environment, providing feedback and revealing new paths.
+### 6. Visible Progression
 
-### 6. Continue the Journey
-
-Progress through connected encounters, discover more of the world, and gradually explore the ideas behind the Quiet Fog.
+Completing objectives can reveal paths, activate environmental elements, and open new parts of the experience.
 
 ## 🧩 Learning Through Gameplay
 
-LUMORA's puzzle design is organized around three intended learning themes.
-
 | Theme | Gameplay Direction |
 |---|---|
-| Grounding | Notice sensory details and use environmental clues to navigate a puzzle. |
-| Thoughts vs. Facts | Examine fictional situations and distinguish assumptions from observable evidence. |
-| Balanced Thinking | Explore plausible alternative explanations instead of relying on a single interpretation. |
+| 🌿 Grounding | Observe environmental details and use clues to navigate a puzzle. |
+| 🔍 Thoughts vs. Facts | Examine a fictional situation and separate assumptions from available evidence. |
+| ⚖️ Balanced Thinking | Consider multiple plausible explanations instead of immediately accepting one interpretation. |
 
-These themes guide the design of the game's puzzles and interactions. They are intended to encourage reflection and emotional awareness, not to diagnose or treat a mental-health condition.
+These themes guide puzzle design and character interactions. The intended experience is reflective and supportive, without forcing players to disclose personal experiences or choose a supposedly perfect emotional response.
 
-## 🤖 AI-Powered Companion — Future Direction
+## 🏮 Environmental Storytelling
+
+<p align="center">
+  <img src="https://images.pexels.com/photos/30745584/pexels-photo-30745584.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="A tranquil, fog-covered forest path" width="80%"/>
+</p>
+
+The environment is an active part of LUMORA's storytelling.
+
+A completed puzzle might reveal a path, light a lantern, or make an important clue easier to see. These changes provide direct feedback and connect the player's actions to the world.
+
+The aim is to make progression feel visible through gameplay rather than relying entirely on dialogue or instructions.
+
+## 🤖 AI Companion — Future Direction
 
 AI is being considered as an enhancement to Lumi's companion experience.
 
 Potential capabilities include:
 
 - **Context-aware dialogue:** Responses informed by the current scene and relevant game events.
-- **Adaptive hints:** Help that responds to the player's progress without immediately revealing a solution.
-- **Continuity:** Remembering relevant in-game events and player-selected preferences where appropriate.
-- **Consistent personality:** Maintaining Lumi's supportive tone and narrative role across interactions.
-- **Reliable fallback behaviour:** Keeping core gameplay available even when AI services are unavailable.
+- **Adaptive hints:** Gradual guidance based on puzzle progress.
+- **Game memory:** Remembering relevant in-game events and player choices.
+- **Consistent personality:** Maintaining Lumi's supportive tone and narrative role.
+- **Reliable fallback:** Keeping core gameplay functional if an AI service is unavailable.
 
-The game's core systems should remain responsible for puzzle completion, story progression, and level unlocking. AI-generated dialogue should enhance the experience without controlling authoritative game state.
+The game itself will remain responsible for puzzle completion, quest status, and level progression. AI-generated dialogue should enhance the experience without changing authoritative game state.
 
-These capabilities are design goals and may evolve as the architecture is developed.
+These capabilities are design goals; the final model, backend, and memory architecture remain subject to development decisions.
 
-## ⚙️ Technology and Architecture
+## ⚙️ Technology Stack
 
-LUMORA is being designed around a modular game architecture.
-
-| Technology / Component | Intended Role |
+| Technology | Intended Use |
 |---|---|
-| **Godot Engine** | Game scenes, player movement, interactions, puzzles, animations, and environmental effects. |
-| **GDScript** | Gameplay logic, puzzle state, dialogue flow, and level progression. |
-| **AI model and backend** | Potential future contextual dialogue and companion intelligence. |
-| **Game-state management** | Track choices, puzzle completion, and progression independently of generated dialogue. |
-| **Save system** | Preserve relevant player progress between sessions. |
+| **Godot Engine** | Game scenes, movement, interactions, puzzles, and visual effects. |
+| **GDScript** | Gameplay logic, dialogue flow, puzzle state, and progression. |
+| **AI Model and Backend** | Potential contextual companion dialogue and personalization. |
+| **Game-State Management** | Track choices, objectives, and progression independently of AI output. |
+| **Save System** | Preserve relevant player progress between sessions. |
 
-The final AI provider, backend framework, database, and deployment architecture will be selected according to the project's requirements.
+The final AI provider, backend framework, database, and deployment architecture will be selected according to actual project requirements.
 
-## 🏗️ Design Principles
+## 🛡️ Design Principles
 
-- **Gameplay first:** The world should be enjoyable to explore, even without AI.
-- **Gentle progression:** Challenges should be understandable and avoid punishing players for taking breaks.
-- **Meaningful interaction:** Player actions should produce clear and consistent feedback.
-- **Player agency:** Players should be able to make choices, request help, and skip optional reflection activities.
-- **Modular development:** Mechanics should be reusable as the world and story expand.
-- **Privacy and safety:** Any future AI or personalization features should use appropriate safeguards and minimize sensitive data collection.
+- **Gameplay first:** Core gameplay should work without AI.
+- **Player agency:** Players remain in control of their choices and progress.
+- **Gentle progression:** Avoid punishing players for taking breaks or skipping optional reflection.
+- **Meaningful feedback:** Actions should produce clear and consistent consequences.
+- **Modular architecture:** Mechanics should be reusable as the world expands.
+- **Privacy and safety:** Future AI features should use appropriate safeguards and minimize sensitive data collection.
 
-## 🗺️ Development Direction
+## 🌱 Our Vision
 
-LUMORA is being developed incrementally, beginning with the fundamental gameplay experience and expanding as the narrative and technical design mature.
+LUMORA aims to bring together exploration, thoughtful puzzles, environmental storytelling, and a supportive companion in one coherent adventure.
 
-The broader direction includes:
+The goal is to create a world where players can notice details, explore possibilities, and discover new paths at their own pace.
 
-- A playable world with exploration and interactive environmental objects.
-- Puzzle systems connected to the game's three learning themes.
-- Lumi's companion dialogue and contextual guidance.
-- Environmental storytelling and choice-dependent outcomes.
-- Potential AI-assisted conversations and memory.
-- Additional encounters, locations, and narrative progression.
+**Every clue reveals a little more. Every choice opens a possibility. Every step leads somewhere new.**
 
-The exact scope and implementation of future features will depend on testing, team decisions, and the evolution of the game's story.
+## ⚠️ Important Note
 
-## 📸 Visuals and Gameplay
+LUMORA is an evolving game project, not a clinically validated mental-health intervention. Its themes of emotional awareness and reflection do not establish therapeutic effectiveness. The game is not intended to diagnose or treat depression or replace qualified professional support.
 
-<!-- Replace these placeholders with real screenshots when available. -->
-<p align="center">
-  <img src="assets/images/gameplay-exploration.png" alt="Exploration gameplay" width="48%">
-  <img src="assets/images/gameplay-puzzle.png" alt="Environmental puzzle gameplay" width="48%">
-</p>
+---
 
 <p align="center">
-  <em>Gameplay screenshots and concept art will be added as the experience develops.</em>
+  <strong>LUMORA — A journey through the Quiet Fog.</strong>
 </p>
-
-## 🌱 Our
