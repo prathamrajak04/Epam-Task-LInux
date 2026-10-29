@@ -49,5 +49,4 @@ On Android, Lumora will run a lightweight, on-device safety module before sendin
 
 If a high-risk signal is detected, the app will stop forwarding audio, cancel the active AI response where possible and display a locally stored, pre-reviewed support screen. If recognition or detection fails, the system will follow a safe fallback policy rather than automatically assuming the conversation is safe. A “Get help now” option will remain accessible offline.
 
-The module will be integrated into Godot through Android-compatible native code or a local service. Crisis rules, reviewed responses and support resources will be stored locally. No cloud model will be required for the initial crisis decision. The detector must be tested across accents, languages, background noise and false alarms; it is a safety layer, not a guarantee that every crisis will be detected.
-
+<img width="900" height="607" alt="Diagram Creation Workflow" src="https://github.com/user-attachments/assets/712e6da1-168c-4f13-bec7-0a1a7c934dd9" />
