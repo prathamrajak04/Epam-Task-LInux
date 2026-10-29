@@ -11,7 +11,7 @@ This folder contains the initial architecture and technical research for Lumi.
 ## Guidelines
 Upload architecture diagrams, technical notes, research documents, and implementation drafts here.
 
-# Lumi's Memory System for Lumora
+### Lumi's Memory System for Lumora
 
 Lumi is designed to be a friendly and supportive companion who stays with the player throughout their journey across the ten universes and even after the game ends. To make conversations feel natural and personal, Lumi needs a way to remember the current conversation and retain useful information for future interactions.
 
@@ -32,7 +32,7 @@ This approach keeps the system simple for the first version of Lumora. The conve
 <img width="731" height="740" alt="Execution Flow Diagram" src="https://github.com/user-attachments/assets/0b5c80ac-4c59-4124-94ce-5c828c16a110" />
 
 
-# Lumi’s Voice and Safety System
+### Lumi’s Voice and Safety System
 
 Lumi is designed to feel like a natural, caring companion who listens to the player and responds in a warm, human-like way. Since Lumora is being developed for Android, we plan to use speech-to-speech technology to make conversations faster and smoother. Instead of waiting for the full voice recording to be converted into text before Lumi responds, audio can be sent in small chunks to reduce the waiting time and make conversations feel more natural.
 
@@ -44,10 +44,22 @@ In the future, we may integrate NVIDIA NeMo Guardrails on the backend to add mor
 
 Our goal is to make Lumi feel responsive, personal and supportive while keeping the player's privacy, safety and control at the centre of the experience.
 
-# Implementation of Lumora’s Local Crisis System
+### Implementation of Lumora’s Local Crisis System
 
 On Android, Lumora will run a lightweight, on-device safety module before sending voice data to the AI. Incoming audio chunks will be temporarily buffered and processed by local speech recognition to generate provisional text. A local crisis detector will analyse the evolving text and context for potential self-harm, suicidal intent or immediate danger.
 
 If a high-risk signal is detected, the app will stop forwarding audio, cancel the active AI response where possible and display a locally stored, pre-reviewed support screen. If recognition or detection fails, the system will follow a safe fallback policy rather than automatically assuming the conversation is safe. A “Get help now” option will remain accessible offline.
 
 <img width="900" height="607" alt="Diagram Creation Workflow" src="https://github.com/user-attachments/assets/712e6da1-168c-4f13-bec7-0a1a7c934dd9" />
+
+### Proposed Tech Stack for Lumi
+
+- **OpenAI Realtime API:** Enables natural, low-latency speech-to-speech conversations with Lumi.
+- **WebRTC:** Streams audio between the Android app and the AI in real time.
+- **Godot 4 with Android/Kotlin integration:** Connects Lumi’s voice features and local safety components to the game.
+- **Python FastAPI:** Manages secure session setup, backend communication and application logic.
+- **Local crisis detection:** Uses on-device speech recognition and deterministic safety rules to identify potential crisis signals before audio is sent to the AI.
+- **SQLite:** Stores useful, user-approved semantic memories, such as player interests and preferences.
+- **Conversation buffer:** Temporarily maintains recent messages so Lumi can follow the ongoing conversation.
+- **Output safety checks:** Check generated responses before playback and provide reviewed fallback messages when needed.
+- **NVIDIA NeMo Guardrails (future implementation):** May add further backend checks for user input, Lumi’s responses and conversational boundaries.
