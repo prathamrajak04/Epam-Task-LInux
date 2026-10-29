@@ -1,0 +1,17 @@
+# Lumi's Memory System for Lumora
+
+Lumi is designed to be a friendly and supportive companion who stays with the player throughout their journey across the ten universes and even after the game ends. To make conversations feel natural and personal, Lumi needs a way to remember the current conversation and retain useful information for future interactions.
+
+For this, we will use a conversation buffer for real-time conversations and semantic memory stored in an SQLite database.
+
+The conversation buffer will hold the recent messages exchanged between the player and Lumi. This will help Lumi understand the current topic, follow the conversation, and respond naturally without losing track of what was said a few messages earlier. The buffer is temporary and can be cleared or reset according to the session policy.
+
+Semantic memory will store useful information that the player has agreed to save, such as their interests, communication preferences, goals, and skills they have practised in the game. SQLite will provide a lightweight way to store this information locally on the player's device, allowing Lumi to access it when the player returns in a future session.
+
+When the player starts a conversation, Lumi's system will combine the recent messages from the buffer with relevant information retrieved from SQLite and the player's current game progress. This context will help Lumi provide responses that feel connected to the player's previous experiences.
+
+For example, if a player previously practised breaking a large task into smaller steps, Lumi may recall this when the player later asks for help with a similar challenge. It can gently suggest revisiting that approach while allowing the player to choose what works for them.
+
+We will not store every conversation permanently. Only useful information should be saved with appropriate permission, and players should be able to view, correct, or delete their saved memories. Personal reflections should remain optional, and sensitive information should not be stored unnecessarily.
+
+This approach keeps the system simple for the first version of Lumora. The conversation buffer will manage immediate context, while SQLite-based semantic memory will provide continuity across sessions. Together, they will help Lumi feel more personal and consistent while respecting the player's privacy and choices.

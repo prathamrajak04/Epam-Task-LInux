@@ -1,0 +1,7 @@
+#Implementation of Lumora’s Local Crisis System
+
+On Android, Lumora will run a lightweight, on-device safety module before sending voice data to the AI. Incoming audio chunks will be temporarily buffered and processed by local speech recognition to generate provisional text. A local crisis detector will analyse the evolving text and context for potential self-harm, suicidal intent or immediate danger.
+
+If a high-risk signal is detected, the app will stop forwarding audio, cancel the active AI response where possible and display a locally stored, pre-reviewed support screen. If recognition or detection fails, the system will follow a safe fallback policy rather than automatically assuming the conversation is safe. A “Get help now” option will remain accessible offline.
+
+The module will be integrated into Godot through Android-compatible native code or a local service. Crisis rules, reviewed responses and support resources will be stored locally. No cloud model will be required for the initial crisis decision. The detector must be tested across accents, languages, background noise and false alarms; it is a safety layer, not a guarantee that every crisis will be detected.

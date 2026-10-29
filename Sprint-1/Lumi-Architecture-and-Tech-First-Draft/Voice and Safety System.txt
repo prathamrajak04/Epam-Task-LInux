@@ -1,0 +1,11 @@
+# Lumi’s Voice and Safety System
+
+Lumi is designed to feel like a natural, caring companion who listens to the player and responds in a warm, human-like way. Since Lumora is being developed for Android, we plan to use speech-to-speech technology to make conversations faster and smoother. Instead of waiting for the full voice recording to be converted into text before Lumi responds, audio can be sent in small chunks to reduce the waiting time and make conversations feel more natural.
+
+To help Lumi remember the player, we plan to use a conversation buffer and semantic memory stored locally in SQLite. The conversation buffer will temporarily hold recent messages so Lumi can follow the ongoing conversation. Semantic memory will store only useful information, such as the player's interests, communication preferences, goals and skills they have practised in the game. We will not save every conversation. Players should have control over what Lumi remembers, including the ability to view, correct or delete stored memories.
+
+Safety is one of the most important parts of Lumi's design. Before voice data is sent to the AI, Lumora will use a local safety check to identify possible crisis situations. If a serious concern is detected, the game will stop the normal conversation and show a reviewed help screen with appropriate support resources. Lumi will also follow clear boundaries: it should not diagnose players, make unsupported clinical claims or replace professional help. On the response side, the game will check Lumi's generated speech before playing it where required, block unsafe responses and use reviewed fallback messages if a safety check fails. A visible “Get help now” option will remain available.
+
+In the future, we may integrate NVIDIA NeMo Guardrails on the backend to add more structured checks for user input, Lumi's responses and the conversation rules. This would be an additional layer of protection, not a replacement for Lumora's local crisis checks or playback controls.
+
+Our goal is to make Lumi feel responsive, personal and supportive while keeping the player's privacy, safety and control at the centre of the experience.
