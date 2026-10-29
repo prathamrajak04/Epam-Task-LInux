@@ -1,5 +1,3 @@
-<img width="1280" height="1126" alt="MemoryArch" src="https://github.com/user-attachments/assets/afdc059f-54a8-4846-ae0c-eeff081ec467" /># Lumi Architecture and Tech — First Draft
-
 This folder contains the initial architecture and technical research for Lumi.
 
 ## Contents
@@ -30,6 +28,9 @@ For example, if a player previously practised breaking a large task into smaller
 We will not store every conversation permanently. Only useful information should be saved with appropriate permission, and players should be able to view, correct, or delete their saved memories. Personal reflections should remain optional, and sensitive information should not be stored unnecessarily.
 
 This approach keeps the system simple for the first version of Lumora. The conversation buffer will manage immediate context, while SQLite-based semantic memory will provide continuity across sessions. Together, they will help Lumi feel more personal and consistent while respecting the player's privacy and choices.
+
+<img width="731" height="740" alt="Execution Flow Diagram" src="https://github.com/user-attachments/assets/0b5c80ac-4c59-4124-94ce-5c828c16a110" />
+
 
 # Lumi’s Voice and Safety System
 
